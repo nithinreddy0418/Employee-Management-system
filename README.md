@@ -1,3 +1,54 @@
+# Employee Management Application
+
+This repository contains an Employee Management Application developed using Spring Boot for the backend and React with React Hooks for the frontend. The application provides CRUD (Create, Read, Update, Delete) operations for managing employee records.
+
+## Features
+
+- Create a new employee record with their details such as name, email, and designation.
+- Retrieve employee records by their unique ID.
+- Update employee details, including name, email, and designation.
+- Delete employee records.
+
+## Technologies Used
+
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- Spring Security
+- Maven
+- MySQL
+
+### Frontend
+- React
+- React Hooks
+- HTML
+- CSS
+- Axios
+
+## Setup Instructions
+
+### Backend
+1. Make sure you have Java Development Kit (JDK) installed.
+2. Clone this repository to your local machine.
+3. Configure the database connection by modifying the `application.properties` file in the `src/main/resources` directory.
+4. Build the project using Maven: `mvn clean install`.
+5. Run the backend application: `mvn spring-boot:run`.
+
+### Frontend
+1. Make sure you have Node.js and npm (Node Package Manager) installed.
+2. Open a new terminal and navigate to the `frontend` directory.
+3. Install the required dependencies by running: `npm install`.
+4. Start the frontend application: `npm start`.
+5. Access the application through `http://localhost:3000` in your web browser.
+
+## Testing
+
+Unit tests have been implemented using JUnit and Mockito to ensure the correctness of the API endpoints and the business logic. You can run the tests using the following command:
+
+```bash
+mvn test
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -65,6 +116,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
